@@ -350,7 +350,7 @@ function Index() {
 
       {/* Testimonial + CTA */}
       <section className="relative">
-        <div className="torn-both grain bg-lavender py-20">
+        <div className="torn-both grain bg-lavender pt-20 pb-44">
           <div className="mx-auto max-w-7xl px-6">
             <div className="flex gap-6">
               <Quote className="h-10 w-10 shrink-0 fill-foreground/80 text-foreground/80" />
@@ -404,7 +404,7 @@ function Index() {
           <div className="md:border-l-2 md:border-border md:pl-8">
             <h3 className="text-sm">Quick Links</h3>
             <ul className="mt-4 space-y-2 text-xs text-muted-foreground">
-              {navLinks.slice(0, 5).map((l) => (
+              {navLinks.map((l) => (
                 <li key={l}>
                   <a href="#" className="hover:text-accent">
                     {l}
